@@ -129,7 +129,7 @@ public class AdvancedCameraHandler implements CameraHandler
 				if (meterings != null) {
 					for (int i = 0; i < l; i++) {
 						if (meterings[i].equals("center-weighted")) {
-							exposure.setLightMetering("cecenter-weighted");
+							exposure.setLightMetering("center-weighted");
 							i = l;
 						}
 					}
